@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "274F61551EAF54D40057A75E"
+               BlueprintIdentifier = "CBB3DD581E50284000DB11B7"
                BuildableName = "MWKit.app"
                BlueprintName = "MWKit"
                ReferencedContainer = "container:MWKit.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "274F61551EAF54D40057A75E"
+            BlueprintIdentifier = "CBB3DD581E50284000DB11B7"
             BuildableName = "MWKit.app"
             BlueprintName = "MWKit"
             ReferencedContainer = "container:MWKit.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "274F61551EAF54D40057A75E"
+            BlueprintIdentifier = "CBB3DD581E50284000DB11B7"
             BuildableName = "MWKit.app"
             BlueprintName = "MWKit"
             ReferencedContainer = "container:MWKit.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "274F61551EAF54D40057A75E"
+            BlueprintIdentifier = "CBB3DD581E50284000DB11B7"
             BuildableName = "MWKit.app"
             BlueprintName = "MWKit"
             ReferencedContainer = "container:MWKit.xcodeproj">

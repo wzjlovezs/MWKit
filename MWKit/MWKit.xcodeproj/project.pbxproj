@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB35FF7F244AB23B00914390 /* JTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35FF7A244AB23B00914390 /* JTestVC.m */; };
+		CB35FF80244AB23B00914390 /* JNetworkDao.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35FF7E244AB23B00914390 /* JNetworkDao.m */; };
+		CB35FF84244AB33500914390 /* JTestAppVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35FF83244AB33500914390 /* JTestAppVC.m */; };
 		CBB3DD811E59E73200DB11B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3DD771E59E73200DB11B7 /* AppDelegate.m */; };
 		CBB3DD821E59E73200DB11B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3DD781E59E73200DB11B7 /* Assets.xcassets */; };
 		CBB3DD831E59E73200DB11B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB3DD791E59E73200DB11B7 /* LaunchScreen.storyboard */; };
-		CBB3DD841E59E73200DB11B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB3DD7B1E59E73200DB11B7 /* Main.storyboard */; };
-		CBB3DD851E59E73200DB11B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBB3DD7D1E59E73200DB11B7 /* Info.plist */; };
 		CBB3DD861E59E73200DB11B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3DD7E1E59E73200DB11B7 /* main.m */; };
 		CBB3DD871E59E73200DB11B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3DD801E59E73200DB11B7 /* ViewController.m */; };
-		CBB3DD8F1E59EA5600DB11B7 /* UIApplication+MWKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3DD8E1E59EA5600DB11B7 /* UIApplication+MWKit.m */; };
+		CBB3DD8F1E59EA5600DB11B7 /* UIApplication+JKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3DD8E1E59EA5600DB11B7 /* UIApplication+JKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB35FF7A244AB23B00914390 /* JTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTestVC.m; sourceTree = "<group>"; };
+		CB35FF7B244AB23B00914390 /* JTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTestVC.h; sourceTree = "<group>"; };
+		CB35FF7D244AB23B00914390 /* JNetworkDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNetworkDao.h; sourceTree = "<group>"; };
+		CB35FF7E244AB23B00914390 /* JNetworkDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNetworkDao.m; sourceTree = "<group>"; };
+		CB35FF82244AB33500914390 /* JTestAppVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTestAppVC.h; sourceTree = "<group>"; };
+		CB35FF83244AB33500914390 /* JTestAppVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTestAppVC.m; sourceTree = "<group>"; };
+		CB35FF96244AC40E00914390 /* MWKitDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWKitDemo.pch; sourceTree = "<group>"; };
+		CB35FF97244AC74500914390 /* JKitDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKitDefine.h; sourceTree = "<group>"; };
 		CBB3DD591E50284000DB11B7 /* MWKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DD761E59E73200DB11B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBB3DD771E59E73200DB11B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBB3DD781E59E73200DB11B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB3DD7A1E59E73200DB11B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBB3DD7C1E59E73200DB11B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB3DD7D1E59E73200DB11B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DD7E1E59E73200DB11B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBB3DD7F1E59E73200DB11B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBB3DD801E59E73200DB11B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CBB3DD8D1E59EA5600DB11B7 /* UIApplication+MWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MWKit.h"; sourceTree = "<group>"; };
-		CBB3DD8E1E59EA5600DB11B7 /* UIApplication+MWKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MWKit.m"; sourceTree = "<group>"; };
+		CBB3DD8D1E59EA5600DB11B7 /* UIApplication+JKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JKit.h"; sourceTree = "<group>"; };
+		CBB3DD8E1E59EA5600DB11B7 /* UIApplication+JKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB35FF79244AB23B00914390 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CB35FF7B244AB23B00914390 /* JTestVC.h */,
+				CB35FF7A244AB23B00914390 /* JTestVC.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		CB35FF7C244AB23B00914390 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				CB35FF7D244AB23B00914390 /* JNetworkDao.h */,
+				CB35FF7E244AB23B00914390 /* JNetworkDao.m */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		CB35FF81244AB30F00914390 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CB35FF82244AB33500914390 /* JTestAppVC.h */,
+				CB35FF83244AB33500914390 /* JTestAppVC.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		CBB3DD501E50284000DB11B7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +98,9 @@
 		CBB3DD5B1E50284000DB11B7 /* MWKit */ = {
 			isa = PBXGroup;
 			children = (
+				CB35FF97244AC74500914390 /* JKitDefine.h */,
+				CB35FF7C244AB23B00914390 /* Dao */,
+				CB35FF79244AB23B00914390 /* test */,
 				CBB3DD8B1E59EA1700DB11B7 /* Category */,
 			);
 			path = MWKit;
@@ -75,11 +113,12 @@
 				CBB3DD771E59E73200DB11B7 /* AppDelegate.m */,
 				CBB3DD781E59E73200DB11B7 /* Assets.xcassets */,
 				CBB3DD791E59E73200DB11B7 /* LaunchScreen.storyboard */,
-				CBB3DD7B1E59E73200DB11B7 /* Main.storyboard */,
 				CBB3DD7D1E59E73200DB11B7 /* Info.plist */,
 				CBB3DD7E1E59E73200DB11B7 /* main.m */,
+				CB35FF96244AC40E00914390 /* MWKitDemo.pch */,
 				CBB3DD7F1E59E73200DB11B7 /* ViewController.h */,
 				CBB3DD801E59E73200DB11B7 /* ViewController.m */,
+				CB35FF81244AB30F00914390 /* Test */,
 			);
 			path = MWKitDemo;
 			sourceTree = "<group>";
@@ -95,8 +134,8 @@
 		CBB3DD8C1E59EA2F00DB11B7 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DD8D1E59EA5600DB11B7 /* UIApplication+MWKit.h */,
-				CBB3DD8E1E59EA5600DB11B7 /* UIApplication+MWKit.m */,
+				CBB3DD8D1E59EA5600DB11B7 /* UIApplication+JKit.h */,
+				CBB3DD8E1E59EA5600DB11B7 /* UIApplication+JKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -142,6 +181,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -160,8 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB3DD851E59E73200DB11B7 /* Info.plist in Resources */,
-				CBB3DD841E59E73200DB11B7 /* Main.storyboard in Resources */,
 				CBB3DD821E59E73200DB11B7 /* Assets.xcassets in Resources */,
 				CBB3DD831E59E73200DB11B7 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -174,9 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB35FF84244AB33500914390 /* JTestAppVC.m in Sources */,
+				CB35FF80244AB23B00914390 /* JNetworkDao.m in Sources */,
 				CBB3DD871E59E73200DB11B7 /* ViewController.m in Sources */,
-				CBB3DD8F1E59EA5600DB11B7 /* UIApplication+MWKit.m in Sources */,
+				CBB3DD8F1E59EA5600DB11B7 /* UIApplication+JKit.m in Sources */,
 				CBB3DD861E59E73200DB11B7 /* main.m in Sources */,
+				CB35FF7F244AB23B00914390 /* JTestVC.m in Sources */,
 				CBB3DD811E59E73200DB11B7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,14 +231,6 @@
 				CBB3DD7A1E59E73200DB11B7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CBB3DD7B1E59E73200DB11B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBB3DD7C1E59E73200DB11B7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,9 +328,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8QBT96334;
+				GCC_PREFIX_HEADER = MWKitDemo/MWKitDemo.pch;
 				INFOPLIST_FILE = MWKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzj.MWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -307,9 +343,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8QBT96334;
+				GCC_PREFIX_HEADER = MWKitDemo/MWKitDemo.pch;
 				INFOPLIST_FILE = MWKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzj.MWKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "JTestAppVC.h"
+#import "JKitDefine.h"
+
+
 
 @interface ViewController ()
 
@@ -16,7 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    @weakify(self)
+    [self addMenuTitle:@"应用相关" subTitle:nil callBack:^(id  _Nonnull sender, id  _Nonnull data) {
+        @strongify(self);
+        JTestAppVC *vc = [JTestAppVC new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
 }
 
 

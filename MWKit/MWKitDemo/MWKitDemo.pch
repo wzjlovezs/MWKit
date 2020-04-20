@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  MWKit
+//
+//  Created by MikeWang on 2020/4/18.
+//  Copyright © 2020 MikeWang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+    #import "JKitDefine.h"
+#endif
+
+#endif /* PrefixHeader_pch */

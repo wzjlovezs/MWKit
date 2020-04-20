@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JTestVC.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : JTestVC
 
 
 @end

@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIApplication (MWKit)
+/// <#Description#>
+@interface UIApplication (JKit)
 
--(NSDictionary*)infoDictionary;
++(NSDictionary*)infoDictionary;
 
 
 /**
@@ -18,14 +19,14 @@
 
  @return app名称
  */
--(NSString*)applicationDisplayName;
++(NSString*)applicationDisplayName;
 
 
 /**
  
  @return App 版本号
  */
--(NSString*)applicationShortVersion;
++(NSString*)applicationShortVersion;
 
 
 /**
@@ -33,5 +34,12 @@
  
  @return App build版本号
  */
--(NSString*)applicationVersion;
++(NSString*)applicationVersion;
+
+/**
+
+
+@return App build版本号
+*/
++(NSString*)applicationBundleId;
 @end

@@ -6,26 +6,30 @@
 //  Copyright © 2017年 MikeWang. All rights reserved.
 //
 
-#import "UIApplication+MWKit.h"
+#import "UIApplication+JKit.h"
 
-@implementation UIApplication (MWKit)
--(NSDictionary*)infoDictionary
+@implementation UIApplication (JKit)
++(NSDictionary*)infoDictionary
 {
     return [[NSBundle mainBundle] infoDictionary];
 }
 
--(NSString*)applicationDisplayName
++(NSString*)applicationDisplayName
 {
     return [[self infoDictionary] objectForKey:@"CFBundleDisplayName"];
 }
 
--(NSString*)applicationShortVersion
++(NSString*)applicationShortVersion
 {
     return [[self infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
--(NSString*)applicationVersion
++(NSString*)applicationVersion
 {
     return [[self infoDictionary] objectForKey:@"CFBundleVersion"];
+}
+
++(NSString*)applicationBundleId {
+    return [[self infoDictionary] objectForKey:@"CFBundleIdentifier"];
 }
 @end
